@@ -25,7 +25,7 @@ A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull 
 ## Technologies
 
 Estas foram as seguintes aplicações que utilizamos para desenvolver o trabalho
-* NodeJS
+* NodeJS (https://nodejs.org/en/about/).
 * MySQL Workbench
 
 
