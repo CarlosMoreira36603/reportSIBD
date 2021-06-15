@@ -132,14 +132,6 @@ Descrição da Tabela Marcações
 | ----------- | --------- | ------- |
 | Cliente_NIF | Nome      | Sim     |
 
-- **Referêncial** (chaves estrangeiras)*:
-
-| Nome   | Coluna(s)       | Tabela referênciada | Coluna(s) referênciada(s) | Indexar |
-| -----  | ---------       | ------------------- | ------------------------- | ------- |
-| ibfk_1 | cliente_nif     | `clientes`          | id                        | Não     |
-| ibfk_2 | id_servicos     | `servicos`          | id                        | Não     |
-| ibfk_3 | id_profissional | `profissionais`     | id                        | Não     |
-
 ---
 | [< Previous](rebd03.md) | [^ Main](https://github.com/exemploTrabalho/reportSIBD/) | [Next >](rebd05.md) |
 | :---------------------- | :------------------------------------------------------: | ------------------: |
