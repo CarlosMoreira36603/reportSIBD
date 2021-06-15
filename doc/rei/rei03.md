@@ -14,10 +14,10 @@ Associações:
 - Marcação -> Agenda -> Serviços
 - Marcação -> EfetuadoPor -> Cliente
 
-Diagrama do modelo relacional. A fotografia da mesma irá estar anexada no repositório.   
+A fotografia do diagrama irá estar anexada no repositório.
 
 ## Regras de negócio adicionais (Restrições)
-_(Apresentar uma lista detalhada das regras e restrições não possíveis de representar no modelo E/A, que visam a manutenção da consistência e integridade da modelação do problema)_
+O cliente só poderá cancelar a sua marcação até 24h antes. Caso pretenda cancelar, deve entrar em contacto com a Barbearia, para que lhe cancelem a marcação e só após a desmarcação, o cliente poderá novamente remarcar o seu pedido.
 
 ---
 [< Previous](rei02.md) | [^ Main](https://github.com/exemploTrabalho/reportSIBD/) | Next >
