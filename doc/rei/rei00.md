@@ -6,12 +6,13 @@
 :[Especificação de Requisitos](rei02.md)  
 :[Esquema Conceptual](rei03.md)  
 
-## Group _xx_
+## Group _08_
 
 _Don't forget to add the group elements_
 
-* Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
-* Other team members
+* Carlos Moreira [@CarlosMoreira36603](https://github.com/CarlosMoreira36603)
+* António Moura [@antoniomoura98](https://github.com/antoniomoura98)
+* Fábio Maia [@A036142](https://github.com/A036142)
 
 ---
 _You can add a footer menu for navigation_ 
