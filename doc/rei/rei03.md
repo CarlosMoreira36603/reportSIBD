@@ -1,14 +1,23 @@
 # C3 : Esquema conceptual
 
 ## Modelo E/A
-_(Introduzir as entidade-tipo e associações do sistema, adicionalmente apresentar o diagrama do modelo Entidade-Associação.)_
+Atributos:
+- Cliente1 (clienteNIF, nome, morada, número de telemóvel ou telefone, email)
+- Serviço1 (IDserviço, serviçoNome, serviçoPreço)
+- Profissionais1 (IDprofissional, profissionalNome, profissionalContacto)
+- Marcação1 (IDMarcação, dia, hora)
 
-Diagrama do modelo relacional. A fotografia da mesma irá estar facultado nas pastas.   
-![An alternative description](images/diagramaMR.jpg)   
+(*IDMarcação, clienteNIF, IDserviço, IDprofissional – atributo-chave*) 
 
-Always add a description to help the user understand the figure 
+Associações:
+Marcação -> EfetuadoPara -> Profissionais
+Marcação -> Agenda -> Serviços
+Marcação -> EfetuadoPor -> Cliente
 
-NOTA: Cada entidade-tipo e cada associação devem ter um pequeno texto – um ou dois parágrafos – para descrever esse elemento do modelo e os seus atributos)
+
+Diagrama do modelo relacional. A fotografia da mesma irá estar anexada no repositório.   
+
+
 
 ## Regras de negócio adicionais (Restrições)
 _(Apresentar uma lista detalhada das regras e restrições não possíveis de representar no modelo E/A, que visam a manutenção da consistência e integridade da modelação do problema)_
