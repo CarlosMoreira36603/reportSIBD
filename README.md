@@ -3,7 +3,7 @@
 Repositório criado para a apresentação de um projeto desenvolvido no âmbito da cadeira de Sistemas de Informação e Bases de Dados no Instituto Universitário da Maia.
 
 ### Grupo
-Este grupo é composto por António Moura, Carlos Moreira e José Mário.
+Este grupo é composto por António Moura, Carlos Moreira e Fábio Maia.
 
 ## Descrição do Tema
 
