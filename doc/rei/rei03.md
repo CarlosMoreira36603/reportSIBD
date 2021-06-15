@@ -10,9 +10,9 @@ Atributos:
 (*IDMarcação, clienteNIF, IDserviço, IDprofissional – atributo-chave*) 
 
 Associações:
-Marcação -> EfetuadoPara -> Profissionais
-Marcação -> Agenda -> Serviços
-Marcação -> EfetuadoPor -> Cliente
+-Marcação -> EfetuadoPara -> Profissionais
+-Marcação -> Agenda -> Serviços
+-Marcação -> EfetuadoPor -> Cliente
 
 
 Diagrama do modelo relacional. A fotografia da mesma irá estar anexada no repositório.   
