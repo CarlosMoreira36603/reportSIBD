@@ -3,7 +3,7 @@
 ## Modelo E/A
 _(Introduzir as entidade-tipo e associações do sistema, adicionalmente apresentar o diagrama do modelo Entidade-Associação.)_
 
-Exemplo de inserção de uma imagem:   
+Diagrama do modelo relacional. A fotografia da mesma irá estar facultado nas pastas.   
 ![An alternative description](images/diagramaMR.jpg)   
 
 Always add a description to help the user understand the figure 
