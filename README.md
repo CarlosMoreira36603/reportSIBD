@@ -1,4 +1,4 @@
-# My work assignment Title
+# Base de Dados Barbearia Online
 
 Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group ALPHA : [@MarcoOliveira](https://github.com/marcoamarooliveira), [add others].
 
