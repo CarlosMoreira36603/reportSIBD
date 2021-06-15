@@ -26,13 +26,13 @@ A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull 
 
 Estas foram as seguintes aplicações que utilizamos para desenvolver o trabalho
 * NodeJS (https://nodejs.org/en/about/).
-* MySQL Workbench
+* MySQL Workbench (https://www.mysql.com/products/workbench/).
 
 
 ### Frameworks and Libraries
 
 Utilizamos a seguinte framework
-* Loopback 4
+* Loopback 4 (https://loopback.io/doc/en/lb4/).
 
 ## Reports
 _Please add a hyperlink per Report.
