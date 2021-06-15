@@ -1,6 +1,6 @@
 # Base de Dados Barbearia Online
 
-Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group ALPHA : [@MarcoOliveira](https://github.com/marcoamarooliveira), [add others].
+Repositório criado para a apresentação de um projeto desenvolvido no ambito da cadeira de Sistemas de Informação e Bases de Dados no Instituto Universitário da Maia. Desenvolvidos por: Carlos Moreira, António Moura e Fábio Maia.
 
 ## Short theme description
 
