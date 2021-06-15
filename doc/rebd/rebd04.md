@@ -51,7 +51,7 @@ Descrição da Tabela Profissionais
 | Nome            | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :-------        | :------------------------ | :---------- | :---------- | :--------- | :--- |
 | Id_Profissionais| Número do Profissional    | Int(11)     | -           | Sim        | Não  |
-| Nome            | Nome do profissional      | DATE        | -           | Não        | Não  |
+| Nome            | Nome do profissional      | VARCHAR(100)| -           | Não        | Não  |
 | Contacto        | Contacto do profissional  | Int(9)      | -           | Não        | Não  |
 
 
