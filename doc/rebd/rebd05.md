@@ -50,16 +50,7 @@ CREATE TABLE `marcacoes` (
 
 ```
 ## DML
-Algumas das interrogações à Base de Dados
-Quantos clientes tem?
-SELECT COUNT(Id_Nome)
-FROM table_clientes;
-
-Quantos profissionais é que tem?
-SELECT COUNT (Id_profissional)
-FROM table_profissionais;
-
-
+As interrogações à Base de Dados irão estar anexadas no repositório
 
 ---
 [< Previous](rebd04.md) | [^ Main](https://github.com/exemploTrabalho/reportSIBD/) | Next >
