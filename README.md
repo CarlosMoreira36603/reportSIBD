@@ -24,7 +24,7 @@ A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull 
 
 ## Technologies
 
-_Indicate the technologies you have used in this assignment. Please provide links for the user to read more about those technologies._
+Estas foram as seguintes aplicações que utilizamos para desenvolver o trabalho
 * NodeJS
 * MySQL Workbench
 
