@@ -35,7 +35,7 @@ Utilizamos a seguinte framework:
 * Loopback 4 (https://loopback.io/doc/en/lb4/).
 
 ## Relatórios
-_Please add a hyperlink per Report.
+Hyperlinks para cada relatório.
 
 :[REI](doc/rei/rei00.md)
 :[REBD](doc/rebd/rebd00.md)
