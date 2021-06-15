@@ -7,7 +7,9 @@ Este grupo é composto por António Moura, Carlos Moreira e José Mário.
 
 ## Short theme description
 
-An example report using markdown on Github. This documentation is writen using [Markdown](https://www.markdownguide.org/). Here is a [link to the basic syntax](https://www.markdownguide.org/basic-syntax), but an [extended syntax](https://www.markdownguide.org/extended-syntax/) is also available. If you're starting with Markdown, you may want to try a [Markdown Tutorial](https://www.markdowntutorial.com/) and read the [getting started](https://www.markdownguide.org/getting-started/) section.
+A nossa ideia passa por uma barbearia online. Onde existe a possibilidade de criar uma marcação definindo o dia, a hora, o profissional que deseja e o serviço (pode ser cortar cabelo, cortar barba, os dois, etc). Irão ser definidos os serviços, os produtos, os profissionais e a inscrição do cliente.  
+O cliente terá de deixar o seu nome, morada, número de telemóvel ou telefone e NIF para poder ser identificado. Queremos abordar também o estado do serviço, se aquele cliente naquela hora está a ser atendido ou se ocorreu algum problema e teve de ser cancelada.
+
 
 ## Repository organization
 
