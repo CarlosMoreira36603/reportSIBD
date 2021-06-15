@@ -50,7 +50,7 @@ CREATE TABLE `marcacoes` (
 
 ```
 ## DML
-As interrogações à Base de Dados irão estar anexadas no repositório
+As interrogações à Base de Dados estã anexadas no repositório.
 
 ---
 [< Previous](rebd04.md) | [^ Main](https://github.com/exemploTrabalho/reportSIBD/) | Next >
