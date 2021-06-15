@@ -17,7 +17,6 @@ profissionaisprofissionaisCREATE TABLE `clientes` (
   PRIMARY KEY (`NIF`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-
 CREATE TABLE `profissionais` (
   `id_Profissionais` int(11) NOT NULL AUTO_INCREMENT,
   `Nome` varchar(100) NOT NULL,
@@ -25,18 +24,12 @@ CREATE TABLE `profissionais` (
   PRIMARY KEY (`id_Profissionais`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-
-
 CREATE TABLE `servicos` (
   `id_servicos` int(11) NOT NULL AUTO_INCREMENT,
   `servicos_nome` varchar(45) NOT NULL,
   `servicos_preco` double NOT NULL,
   PRIMARY KEY (`id_servicos`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
-
-
-
-
 
 CREATE TABLE `marcacoes` (
   `id_marcacoes` int(11) NOT NULL,
