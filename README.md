@@ -1,6 +1,6 @@
 # Base de Dados Barbearia Online
 
-*Repositório criado para a apresentação de um projeto desenvolvido no ambito da cadeira de Sistemas de Informação e Bases de Dados no Instituto Universitário da Maia. *Desenvolvido por: Carlos Moreira, António Moura e Fábio Maia.
+* Repositório criado para a apresentação de um projeto desenvolvido no ambito da cadeira de Sistemas de Informação e Bases de Dados no Instituto Universitário da Maia.Desenvolvido por: Carlos Moreira, António Moura e Fábio Maia.
 
 ## Short theme description
 
