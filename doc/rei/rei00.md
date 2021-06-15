@@ -8,7 +8,7 @@
 
 ## Group _08_
 
-_Don't forget to add the group elements_
+Elementos de grupo
 
 * Carlos Moreira [@CarlosMoreira36603](https://github.com/CarlosMoreira36603)
 * António Moura [@antoniomoura98](https://github.com/antoniomoura98)
