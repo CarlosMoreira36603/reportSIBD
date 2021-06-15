@@ -1,6 +1,7 @@
 # C3 : Normalização
 
 ## Relações
+Relação:
 - Marcacao (Id_Marcacao, Cliente_NIF, Id_servicos, Id_profissional, Dia, Hora, Estado)
 (Marcacao – Cumpre com a 4NF)
 
