@@ -2,8 +2,10 @@
 _(Apresentar o esquema físico da Base de Dados. Para cada relação resultante, apresente a descrição da tabela correspondente usando o exemplo apresentado.)_
 
 - [Relações](#relações)
-  - [Tabela_a](#tabela_a)
-  - [Tabela_b](#tabela_b)
+  - [Tabela_Clientes](#tabela_Clientes)
+  - [Tabela_Profissionais](#tabela_Profissionais)
+  - [Tabela_Serviços](#tabela_Serviços)
+  - [Tabela_Marcações](#tabela_Marcações)
 - [Vistas](#vistas)
 
 ## Relações
