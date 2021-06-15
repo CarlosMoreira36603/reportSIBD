@@ -8,28 +8,53 @@ _(Apresentar o SQL para criação do esquema definido acima num SGBD MySQL.)_
 ```sql
 USE `test`;
 
-DROP TABLE IF EXISTS `tabela_a`;
-DROP TABLE IF EXISTS `tabela_b`;
+profissionaisprofissionaisCREATE TABLE `clientes` (
+  `Nome` varchar(100) NOT NULL,
+  `Morada` varchar(150) NOT NULL,
+  `NIF` int(9) NOT NULL,
+  `Email` varchar(100) NOT NULL,
+  `Numero` int(9) NOT NULL,
+  PRIMARY KEY (`NIF`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-CREATE TABLE IF NOT EXISTS `tabela_a` (
-  `model` int(4) unsigned NOT NULL,
-  `speed` int(4) unsigned NOT NULL,
-  `ram` int(3) unsigned NOT NULL,
-  `hd` float unsigned NOT NULL,
-  `screen` float unsigned NOT NULL,
-  `price` int(7) NOT NULL,
-  PRIMARY KEY (`model`)
-);
 
-CREATE TABLE IF NOT EXISTS `tabela_b` (
-  `model` int(4) unsigned NOT NULL,
-  `speed` int(4) unsigned NOT NULL,
-  `ram` int(3) unsigned NOT NULL,
-  `hd` float unsigned NOT NULL,
-  `cd` varchar(3) COLLATE latin1_bin NOT NULL,
-  `price` int(7) NOT NULL,
-  PRIMARY KEY (`model`)
-);
+CREATE TABLE `profissionais` (
+  `id_Profissionais` int(11) NOT NULL AUTO_INCREMENT,
+  `Nome` varchar(100) NOT NULL,
+  `Contacto` int(9) NOT NULL,
+  PRIMARY KEY (`id_Profissionais`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+CREATE TABLE `servicos` (
+  `id_servicos` int(11) NOT NULL AUTO_INCREMENT,
+  `servicos_nome` varchar(45) NOT NULL,
+  `servicos_preco` double NOT NULL,
+  PRIMARY KEY (`id_servicos`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+
+
+
+CREATE TABLE `marcacoes` (
+  `id_marcacoes` int(11) NOT NULL,
+  `cliente_nif` int(11) NOT NULL,
+  `id_servicos` int(11) NOT NULL,
+  `id_profissional` int(11) NOT NULL,
+  `dia` date NOT NULL,
+  `hora` time NOT NULL,
+  `estado` varchar(45) NOT NULL,
+  PRIMARY KEY (`id_marcacoes`),
+  KEY `cliente_nif` (`cliente_nif`),
+  KEY `id_servicos` (`id_servicos`),
+  KEY `id_profissional` (`id_profissional`),
+  CONSTRAINT `marcacoes_ibfk_1` FOREIGN KEY (`cliente_nif`) REFERENCES `clientes` (`NIF`),
+  CONSTRAINT `marcacoes_ibfk_2` FOREIGN KEY (`id_servicos`) REFERENCES `servicos` (`id_servicos`),
+  CONSTRAINT `marcacoes_ibfk_3` FOREIGN KEY (`id_profissional`) REFERENCES `profissionais` (`id_Profissionais`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 ```
 
 ## DML
