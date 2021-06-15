@@ -10,21 +10,21 @@ _(Apresentar o esquema físico da Base de Dados. Para cada relação resultante,
 
 ## Relações
 
-### Tabela_a
+### Tabela_Clientes
 
 #### DESCRIÇÃO <!-- omit in toc -->
 
-Descrição da Tabela A
+Descrição da Tabela Clientes
 
 #### COLUNAS <!-- omit in toc -->
 
-| Nome     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
-| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| id       | identificador da tabela A | BIGINT      | -           | Sim        | Não  |
-| data     | Data do registo           | DATE        | now()       | Não        | Não  |
-| nome     | Nome do registo           | VARCHAR(50) | -           | Não        | Não  |
-| conteudo | Conteudo do documento     | TEXT        | -           | Não        | Sim  |
-| tipo     | tipo de testes            | BIGINT      | -           | Não        | Sim  |
+| Nome     | Descrição                  | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------  | :---------- | :---------- | :--------- | :--- |
+| Nome     | Nome do Cliente            | Varchar(100)| -           | Sim        | Sim  |
+| Morada   | Morada do cliente          | Varchar(150)| -           | Não        | Sim  |
+| NIF      | Contribuinte do cliente    | Int(9)      | -           | Não        | Sim  |
+| E-mail   | Correio eletronico cliente | Varchar(100)| -           | Não        | Sim  |
+| Número   | Número do cliente          | Int(9)      | -           | Não        | Sim  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
