@@ -19,8 +19,7 @@ _Please help reader navigate around describing how the repository is organized b
 
 ## Galeria
 
-_You may provide a galery of the final result, with small images_
-A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull to organize the images.
+As devidas prints da elaboração do projeto estão anexadas no repositório.
 
 ## Tecnologias
 
