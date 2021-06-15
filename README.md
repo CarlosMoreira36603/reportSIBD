@@ -31,7 +31,7 @@ _Indicate the technologies you have used in this assignment. Please provide link
 
 ### Frameworks and Libraries
 
-_Did you use any aditional libraries? Describe them here._
+_Utilizamos a seguinte biblioteca adiciona _
 * Loopback 4
 
 ## Reports
