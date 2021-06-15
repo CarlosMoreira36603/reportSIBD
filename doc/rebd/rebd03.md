@@ -6,10 +6,10 @@ Relação:
 - Marcacao (Id_Marcacao, Cliente_NIF, Id_servicos, Id_profissional, Dia, Hora, Estado)
 (Marcacao – Cumpre com a 4NF)
 
--Chaves Primarias:
+- Chaves Primarias:
 (idmarcacao)
 
--Chaves estrangeira:
+- Chaves estrangeira:
 (clienteNIF, idservicos, idprofissional)
 
 Relações Encontradas:
