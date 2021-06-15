@@ -24,14 +24,14 @@ A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull 
 
 ## Tecnologias
 
-Estas foram as seguintes aplicações que utilizamos para desenvolver o trabalho
+Estas foram as seguintes aplicações que utilizamos para desenvolver o trabalho:
 * NodeJS (https://nodejs.org/en/about/).
 * MySQL Workbench (https://www.mysql.com/products/workbench/).
 
 
 ### Frameworks and Libraries
 
-Utilizamos a seguinte framework
+Utilizamos a seguinte framework:
 * Loopback 4 (https://loopback.io/doc/en/lb4/).
 
 ## Relatórios
