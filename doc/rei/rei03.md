@@ -10,14 +10,11 @@ Atributos:
 (*IDMarcação, clienteNIF, IDserviço, IDprofissional – atributo-chave*) 
 
 Associações:
--Marcação -> EfetuadoPara -> Profissionais
--Marcação -> Agenda -> Serviços
--Marcação -> EfetuadoPor -> Cliente
-
+- Marcação -> EfetuadoPara -> Profissionais
+- Marcação -> Agenda -> Serviços
+- Marcação -> EfetuadoPor -> Cliente
 
 Diagrama do modelo relacional. A fotografia da mesma irá estar anexada no repositório.   
-
-
 
 ## Regras de negócio adicionais (Restrições)
 _(Apresentar uma lista detalhada das regras e restrições não possíveis de representar no modelo E/A, que visam a manutenção da consistência e integridade da modelação do problema)_
