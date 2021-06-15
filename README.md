@@ -1,6 +1,8 @@
 # Base de Dados Barbearia Online - Relatório
 
-Repositório criado para a apresentação de um projeto desenvolvido no âmbito da cadeira de Sistemas de Informação e Bases de Dados no Instituto Universitário da Maia. ### Group:
+Repositório criado para a apresentação de um projeto desenvolvido no âmbito da cadeira de Sistemas de Informação e Bases de Dados no Instituto Universitário da Maia.
+
+### Group:
 Este grupo é composto por António Moura, Carlos Moreira e José Mário.
 
 ## Short theme description
