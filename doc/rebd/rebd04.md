@@ -6,7 +6,6 @@ _(Apresentar o esquema físico da Base de Dados. Para cada relação resultante,
   - [Tabela_Profissionais](#tabela_Profissionais)
   - [Tabela_Serviços](#tabela_Serviços)
   - [Tabela_Marcações](#tabela_Marcações)
-- [Vistas](#vistas)
 
 ## Relações
 
@@ -20,11 +19,11 @@ Descrição da Tabela Clientes
 
 | Nome     | Descrição                  | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------  | :---------- | :---------- | :--------- | :--- |
-| Nome     | Nome do Cliente            | Varchar(100)| -           | Sim        | Sim  |
-| Morada   | Morada do cliente          | Varchar(150)| -           | Não        | Sim  |
-| NIF      | Contribuinte do cliente    | Int(9)      | -           | Não        | Sim  |
-| E-mail   | Correio eletronico cliente | Varchar(100)| -           | Não        | Sim  |
-| Número   | Número do cliente          | Int(9)      | -           | Não        | Sim  |
+| Nome     | Nome do Cliente            | Varchar(100)| -           | Sim        | Não  |
+| Morada   | Morada do cliente          | Varchar(150)| -           | Não        | Não  |
+| NIF      | Contribuinte do cliente    | Int(9)      | -           | Não        | Não  |
+| E-mail   | Correio eletronico cliente | Varchar(100)| -           | Não        | Não  |
+| Número   | Número do cliente          | Int(9)      | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
@@ -32,87 +31,114 @@ Descrição da Tabela Clientes
 
 | Coluna(s) |
 | --------- |
-| id        |
+| NIF       |
 
 - **Unicidade** (valores únicos)*:
 
 | Nome        | Coluna(s) | Indexar |
 | ----------- | --------- | ------- |
-| nome_unique | nome      | Sim     |
+| NIF         | NIF       | Sim     |
 
-- **Referêncial** (chaves estrangeiras)*:
 
-| Nome  | Coluna(s) | Tabela referênciada | Coluna(s) referênciada(s) | Indexar |
-| ----- | --------- | ------------------- | ------------------------- | ------- |
-| ta_fk | tipo      | Tabela_c            | id                        | Não     |
-
-- **Atributos** (check)*:
-
-| Nome | Coluna(s) | condição |
-| ---- | --------- | -------- |
-|      |           |          |
-
-- **Outros Indices***:
-
-| Nome | Coluna(s) |
-| ---- | --------- |
-|      |           |
-
-  *Remover se não existir.
-
-### Tabela_b
+### Tabela_Profissionais
 
 #### DESCRIÇÃO <!-- omit in toc -->
 
-Descrição da Tabela B
+Descrição da Tabela Profissionais
 
 #### COLUNAS <!-- omit in toc -->
 
-| Nome     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
-| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| id       | identificador da tabela A | BIGINT      | -           | Sim        | Não  |
-| data     | Data do registo           | DATE        | now()       | Não        | Não  |
-| nome     | Nome do registo           | VARCHAR(50) | -           | Não        | Não  |
-| conteudo | Conteudo do documento     | TEXT        | -           | Não        | Sim  |
-| tipo     | tipo de testes            | BIGINT      | -           | Não        | Sim  |
+| Nome            | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :-------        | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| Id_Profissionais| Número do Profissional    | Int(11)     | -           | Sim        | Não  |
+| Nome            | Nome do profissional      | DATE        | -           | Não        | Não  |
+| Contacto        | Contacto do profissional  | Int(9)      | -           | Não        | Não  |
+
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
 - **Chave Primária**: 
 
-| Coluna(s) |
-| --------- |
-| id        |
+| Coluna(s)       |
+| ---------       |
+| id_profissionais|
+
+- **Unicidade** (valores únicos)*:
+
+| Nome             | Coluna(s)       | Indexar |
+| -----------      | ---------       | ------- |
+| id_profissionais | id_profissionais| Sim     |
+
+
+### Tabela_Serviços
+
+#### DESCRIÇÃO <!-- omit in toc -->
+
+Descrição da Tabela Serviços
+
+#### COLUNAS <!-- omit in toc -->
+
+| Nome          | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :-------      | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| Id_serviços   | Número do Profissional    | Int(11)     | -           | Sim        | Não  |
+| Serviço_nome  | Nome do profissional      | VARCHAR(45) | -           | Não        | Não  |
+| Serviço_preço | Contacto do profissional  | Double      | -           | Não        | Não  |
+
+
+#### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
+
+- **Chave Primária**: 
+
+| Coluna(s)  |
+| ---------  |
+| id_serviços|
+
+- **Unicidade** (valores únicos)*:
+
+| Nome       | Coluna(s)  | Indexar |
+| -----------| ---------  | ------- |
+| id_serviços| id_serviços| Sim     |
+
+
+### Tabela_Marcações
+
+#### DESCRIÇÃO <!-- omit in toc -->
+
+Descrição da Tabela Marcações
+
+#### COLUNAS <!-- omit in toc -->
+
+| Nome           | Descrição                    | Domínio     | por Omissão | Automático | Nulo |
+| :-------       | :------------------------    | :---------- | :---------- | :--------- | :--- |
+| Id_Marcações   | Identificador da marcação    | Int(11)     | -           | Sim        | Não  |
+| Cliente_NIF    | NIF do cliente               | Int(11)     | -           | Não        | Não  |
+| Id_Serviços    | Identificador dos serviços   | Int(11)     | -           | Não        | Não  |
+| Id_Profissional| Identificador do profissional| Int(11)     | -           | Não        | Não  |
+| Dia            | Dia da marcação              | Date        | -           | Não        | Não  |
+| Hora           | Hora da marcação             | TIME        | -           | Não        | Não  |
+| Estado         | Estado do marcação           | VARCHAR(45) | -           | Não        | Não  |
+
+#### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
+
+- **Chave Primária**: 
+
+| Coluna(s)   |
+| ---------   |
+| Id_Marcações|
 
 - **Unicidade** (valores únicos)*:
 
 | Nome        | Coluna(s) | Indexar |
 | ----------- | --------- | ------- |
-| nome_unique | nome      | Sim     |
+| Cliente_NIF | Nome      | Sim     |
 
 - **Referêncial** (chaves estrangeiras)*:
 
-| Nome  | Coluna(s) | Tabela referênciada | Coluna(s) referênciada(s) | Indexar |
-| ----- | --------- | ------------------- | ------------------------- | ------- |
-| ta_fk | tipo      | Tabela_c            | id                        | Não     |
-
-- **Atributos** (check)*:
-
-| Nome | Coluna(s) | condição |
-| ---- | --------- | -------- |
-|      |           |          |
-
-- **Outros Indices***:
-
-| Nome | Coluna(s) |
-| ---- | --------- |
-|      |           |
-
-  *Remover se não existir.
-
-## Vistas
-
-_(Inserir a descrição e estrutura das vista, caso existam.)_
+| Nome   | Coluna(s)       | Tabela referênciada | Coluna(s) referênciada(s) | Indexar |
+| -----  | ---------       | ------------------- | ------------------------- | ------- |
+| ibfk_1 | cliente_nif     | `clientes`          | id                        | Não     |
+| ibfk_2 | id_servicos     | `servicos`          | id                        | Não     |
+| ibfk_3 | id_profissional | `profissionais`     | id                        | Não     |
 
 ---
 | [< Previous](rebd03.md) | [^ Main](https://github.com/exemploTrabalho/reportSIBD/) | [Next >](rebd05.md) |
