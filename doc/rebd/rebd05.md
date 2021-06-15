@@ -49,10 +49,17 @@ CREATE TABLE `marcacoes` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 ```
-
 ## DML
+Algumas das interrogações à Base de Dados
+Quantos clientes tem?
+SELECT COUNT(Id_Nome)
+FROM table_clientes;
 
-_(Apresentar exemplos dos pedidos SQL à base de dados que demonstrem o cumprimento dos requisitos identificados. Para cada query apresentar numa breve descrição do requisito que pretende resolver e do resultado espectável.)_
+Quantos profissionais é que tem?
+SELECT COUNT (Id_profissional)
+FROM table_profissionais;
+
+
 
 ---
 [< Previous](rebd04.md) | [^ Main](https://github.com/exemploTrabalho/reportSIBD/) | Next >
