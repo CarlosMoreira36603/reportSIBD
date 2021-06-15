@@ -37,5 +37,6 @@ _Please add a hyperlink per Report.
 :[REBD](doc/rebd/rebd00.md)
 
 ## Team
-* Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
-* Other team members
+* Grupo SIBD08
+* Carlos Moreira, António Moura, Fábio Maia 
+
