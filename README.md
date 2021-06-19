@@ -41,5 +41,7 @@ Hyperlinks para cada relatório.
 
 ## Equipa
 * Grupo SIBD08
-* Carlos Moreira, António Moura, Fábio Maia 
+* Carlos Moreira [@CarlosMoreira36603](https://github.com/CarlosMoreira36603)
+* António Moura [@antoniomoura98](https://github.com/antoniomoura98)
+* Fábio Maia [@A036142](https://github.com/A036142) 
 
